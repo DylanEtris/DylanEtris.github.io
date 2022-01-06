@@ -1,0 +1,30 @@
+body {
+    font-family: arial;
+    background-color: rgb(180, 160, 255);
+}
+.page {    
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(200, 191, 231);
+}
+h1, h2 {
+    color: midnightblue;
+}
+img {
+    padding-left: 0px;
+    padding-top: 0%;
+}
+#poem {
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#gushing>h2 {
+    color: rgb(189, 15, 59);
+}
+#cheers>h2 {
+    color: rgb(87, 0, 48);
+}
+#cheers>p {
+    font-family: cursive;
+    color: red;
+}
