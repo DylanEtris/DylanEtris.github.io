@@ -1,11 +1,22 @@
 body {
     font-family: arial;
     background-color: rgb(180, 160, 255);
+    line-height: 1.5em;
 }
 .page {    
     border: 1px solid black;
     padding: 10px;
     background-color: rgb(200, 191, 231);
+}
+.page2 {
+    background-color: rgb(88, 100, 164);
+    margin: 0%;
+}
+.page2_content {
+    background-color: rgb(44, 50, 82);
+    color: snow;
+    text-shadow: .75px .75px #969696;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1, h2 {
     color: midnightblue;
@@ -21,10 +32,60 @@ img {
 #gushing>h2 {
     color: rgb(189, 15, 59);
 }
-#cheers>h2 {
+.cheers>h2 {
     color: rgb(87, 0, 48);
 }
-#cheers>p {
+.cheers>p {
     font-family: cursive;
     color: red;
+}
+.heading {
+    background-color: rgb(243, 129, 30);
+    color:rgb(19, 31, 65);
+    text-align: center;
+    padding: 0.5em;
+} 
+.weaknesses {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color:maroon;
+}
+.strengths {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(0, 128, 55);
+    font-weight: bolder;
+}
+table, th, td {
+    border: 2px solid rgb(243, 129, 30);
+    border-collapse: collapse;
+    color: snow;
+}
+th, td {
+    width: 50%;
+    text-align: center;
+}
+td {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.title {
+    background-color: rgb(243, 129, 30);
+    color:rgb(44, 50, 82);
+    text-align: center;
+    padding: 0.2em;
+}
+.strengths {
+    border-right: 2px solid rgb(44, 50, 82);
+    background-color: rgb(243, 129, 30);
+    color:rgb(44, 50, 82);
+}
+.weaknesses {
+    border-left: 2px solid rgb(44, 50, 82);
+    background-color: rgb(243, 129, 30);
+    color:rgb(44, 50, 82);
+}
+td {
+    line-height: 1.4em;
 }
