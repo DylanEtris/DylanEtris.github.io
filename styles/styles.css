@@ -89,3 +89,15 @@ td {
 td {
     line-height: 1.4em;
 }
+.debrief img {
+    text-align: center;
+}
+img.align-center {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+img.large {
+    width: 940px;
+    width: 800px;
+}
